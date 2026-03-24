@@ -1,0 +1,468 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Body */
+body {
+  background-color: #0b0b0b;
+  color: #fff;
+}
+
+/* Hero Section */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  text-align: center;
+  background: linear-gradient(180deg, #1f1f1f 0%, #0b0b0b 100%);
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  background: linear-gradient(90deg, #8e2de2, #4a00e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  color: #ccc;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+/* Buttons */
+.cta-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.btn {
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.btn-learn {
+  background-color: #00ff7f;
+}
+
+.btn-learn:hover {
+  background-color: #00cc66;
+}
+
+.btn-invest {
+  background-color: #1e90ff;
+}
+
+.btn-invest:hover {
+  background-color: #187bcd;
+}
+
+/* Stats */
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.stat .number {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.stat p {
+  color: #aaa;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #111;
+  align-items: center;
+}
+
+.header h1 {
+  color: white;
+}
+
+.back-btn {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+/* Courses Section */
+.courses {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.courses h2 {
+  margin-bottom: 40px;
+}
+
+/* Course Cards */
+.course-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.course-card {
+  background: #1a1a1a;
+  padding: 25px;
+  width: 300px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.course-card:hover {
+  transform: translateY(-10px);
+}
+
+.course-card h3 {
+  margin-bottom: 10px;
+}
+
+.course-card p {
+  color: #aaa;
+  margin-bottom: 15px;
+}
+
+.course-card h4 {
+  margin-bottom: 15px;
+}
+
+.course-card button {
+  background: #00ff7f;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.course-card button:hover {
+  background: #00cc66;
+}
+/* Dashboard */
+.dashboard {
+  padding: 40px;
+}
+
+/* Balance */
+.balance-card {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.balance {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Deposit */
+.deposit {
+  background: #1a1a1a;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.coins button {
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  background: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.deposit-btn {
+  background: #1e90ff;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+/* Bot */
+.bot {
+  background: #1a1a1a;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.activate-btn {
+  background: #00ff7f;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+/* History */
+.history {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #333;
+}
+/* Bot Section */
+.bot-section {
+  padding: 60px 20px;
+  text-align: center;
+  background: #111;
+}
+
+.bot-section h2 {
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+.bot-steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.step {
+  background: #1a1a1a;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.step:hover {
+  transform: translateY(-10px);
+}
+
+.step h3 {
+  margin-bottom: 10px;
+}
+
+.step p {
+  color: #aaa;
+}
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #0b0b0b;
+  border-bottom: 1px solid #222;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00ff7f;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ccc;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00ff7f;
+}/* ===== PREMIUM GLOBAL STYLES ===== */
+body {
+  background: radial-gradient(circle at top, #111 0%, #000 100%);
+  color: #fff;
+}
+
+/* Smooth transitions everywhere */
+* {
+  transition: all 0.3s ease;
+}
+
+/* ===== NAVBAR PREMIUM ===== */
+.navbar {
+  backdrop-filter: blur(10px);
+  background: rgba(10, 10, 10, 0.7);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.logo {
+  color: #00ff7f;
+  text-shadow: 0 0 10px #00ff7f;
+}
+
+/* ===== BUTTON UPGRADE ===== */
+.btn {
+  box-shadow: 0 0 10px rgba(0,255,127,0.4);
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0,255,127,0.8);
+}
+
+/* ===== HERO TEXT GLOW ===== */
+.hero-content h1 {
+  text-shadow: 0 0 20px rgba(142,45,226,0.7);
+}
+
+/* ===== CARDS (Courses + Bot + Dashboard) ===== */
+.course-card,
+.balance-card,
+.deposit,
+.bot,
+.history,
+.step {
+  background: rgba(20,20,20,0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Glow on hover */
+.course-card:hover,
+.step:hover {
+  box-shadow: 0 0 20px rgba(0,255,127,0.4);
+}
+
+/* ===== BOT SECTION ===== */
+.bot-section {
+  background: linear-gradient(180deg, #0b0b0b, #111);
+}
+
+.step h3 {
+  color: #00ff7f;
+}
+
+/* ===== TABLE PREMIUM ===== */
+table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th {
+  background: #111;
+}
+
+td {
+  color: #ccc;
+}
+
+/* ===== SCROLLBAR (nice detail) ===== */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00ff7f;
+  border-radius: 10px;
+}
+.activity {
+  text-align: center;
+  padding: 40px;
+  color: #aaa;
+}
+/* Contact Section */
+.contact {
+  padding: 60px 20px;
+  background: #0b0b0b;
+  text-align: center;
+}
+
+.contact h2 {
+  margin-bottom: 10px;
+}
+
+.contact p {
+  color: #aaa;
+  margin-bottom: 30px;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+/* Contact Info */
+.contact-info {
+  background: rgba(20,20,20,0.6);
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  backdrop-filter: blur(10px);
+}
+
+/* Form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  background: #1a1a1a;
+  color: white;
+}
+
+.contact-form button {
+  background: #00ff7f;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #00cc66;
+}
